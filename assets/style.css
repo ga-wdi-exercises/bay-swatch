@@ -1,0 +1,29 @@
+div.swatch {
+  height: 60px;
+  width: 60px;
+  display: inline-block;
+  margin: 0px 0px;
+  padding: 0px;
+}
+
+div.container {
+  width: 520px;
+  margin: 0px auto;
+  padding: 10px;
+  background-image: url("http://cdn3-www.comingsoon.net/assets/uploads/2016/03/hasselhoffbaywatch.jpg");
+}
+
+form, p {
+  text-align: center;
+}
+input {
+  margin: 0 auto;
+}
+footer {
+  width: 50%;
+  margin: 0 auto;
+  height: 20px;
+  border: 1px solid black;
+  text-align: center;
+  padding: 10px;
+}
