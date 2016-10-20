@@ -6,8 +6,6 @@
 h1 {
   transform: rotate(-10deg);
   font-size: 64px;
-  text-align: center;
-  text-shadow: 2px 2px 1px orange;
 }
 
 p, h1, form {
