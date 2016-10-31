@@ -16,7 +16,7 @@
 
   >Breaking it down:
   0. Store user input from the input text box and `console.log()` that stored value.  
-  0. Append a div with a `class` of `square` to `<div class="container">`. You may also want to attach an additional class to the appended div to mark the color entered by the user.
+  0. Append a div with a `class` of `swatch` to `<div class="container">`. You may also want to attach an additional class to the appended div to mark the color entered by the user.
   0. Write a for-loop to add the requested color the requested number of times.
 
 0. *I'd to be able to click on a color and then another color, and switch their values.*
