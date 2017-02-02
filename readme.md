@@ -8,13 +8,16 @@
   0. Add event listeners to each `swatch` class element to listen for mouse-overs
   0. Get the value of each `swatch` class element's color and change the text of the 'output box' to that value
 
-0. *When my mouse leaves a color-box, I want the div to fade out when the mouse enters the color-box, then fade in when the mouse leaves.*
+0. *When my mouse enters the area of a swatch, I want the swatch to fade out. When the mouse leaves the color-box, I want the swatch to fade in.*
   >Breaking it down:
+  0. Determine what event corresponds to the mouse entering the boundaries of a DOM element
   0. Determine what event corresponds to the mouse leaving the boundaries of a DOM element
-  0. Attach event listeners to each colored div to handle the mouse-leave event
+    - http://api.jquery.com/category/events/mouse-events/
+  0. Attach event listeners to each colored div to handle the mouse-enter event, and to handle the mouse-leave event
+  0. Create event handler functions for each event
   0. Search jQuery documentation for methods to fade a DOM element in and out
 
-0. *I'd like to be able to add more colors of my choosing, so that I'm not limited to just shades of black, red, green, or blue. I also want to be able to add any number of a certain color.*
+0. *I'd like to be able to add more colors of my choosing, so that I'm not limited to just shades of black, red, green, or blue. I also want to be able to add any number of swatches of a certain color.*
 
   >Breaking it down:
   0. Store user input from the input text box and `console.log()` that stored value.  
