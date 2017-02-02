@@ -2,13 +2,14 @@
 
 # User Stories
 
-0. *When I mouse-over on a color, I want to see its RGB color value in a box on the screen.*
+
+0. *When I mouse-over on a color, I want to see its RGB color value in a box on the screen.* (10 min work, 15 min review)
   > Breaking it down:
   0. Select all elements with `swatch` class and store as a reference (*i.e. in a variable*)
   0. Add event listeners to each `swatch` class element to listen for mouse-overs
   0. Get the value of each `swatch` class element's color and change the text of the 'output box' to that value
 
-0. *When my mouse enters the area of a swatch, I want the swatch to fade out. When the mouse leaves the color-box, I want the swatch to fade in.*
+0. *When my mouse enters the area of a swatch, I want the swatch to fade out. When the mouse leaves the color-box, I want the swatch to fade in.* (15 min work, 15 min review)
   >Breaking it down:
   0. Determine what event corresponds to the mouse entering the boundaries of a DOM element
   0. Determine what event corresponds to the mouse leaving the boundaries of a DOM element
@@ -17,7 +18,7 @@
   0. Create event handler functions for each event
   0. Search jQuery documentation for methods to fade a DOM element in and out
 
-0. *I'd like to be able to add more colors of my choosing, so that I'm not limited to just shades of black, red, green, or blue. I also want to be able to add any number of swatches of the color I've chosen.*
+0. *I'd like to be able to add more colors of my choosing, so that I'm not limited to just shades of black, red, green, or blue. I also want to be able to add any number of swatches of the color I've chosen.* (20 min work, 20 min review)
 > The colors added by the user do NOT have to vary in their shade. Do not worry about adding in functionality to progressively make each div darker or lighter than the previous.
 
   >Breaking it down:
@@ -29,7 +30,7 @@
   0. Write a for-loop to append the requested color the requested number of times.
     > You can move the code above into this for-loop.
 
-0. *I'd like to be able to click on a swatch and then another swatch, and switch their color-values (I want the swatches to switch places).*
+0. *I'd like to be able to click on a swatch and then another swatch, and switch their color-values (I want the swatches to switch places).*(20 min, 20 min review)
 > The point here is to give the **impression** that the swatches are themselves switching places, but in reality, only their color-values are being swapped.
 
   > Breaking it down:
