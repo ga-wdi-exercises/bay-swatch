@@ -1,4 +1,4 @@
-# Events
+# Events and Callbacks
 
 # User Stories
 
@@ -17,14 +17,19 @@
   0. Create event handler functions for each event
   0. Search jQuery documentation for methods to fade a DOM element in and out
 
-0. *I'd like to be able to add more colors of my choosing, so that I'm not limited to just shades of black, red, green, or blue. I also want to be able to add any number of swatches of a certain color.*
+0. *I'd like to be able to add more colors of my choosing, so that I'm not limited to just shades of black, red, green, or blue. I also want to be able to add any number of swatches of the color I've chosen.*
+> The colors added by the user do NOT have to vary in their shade. Do not worry about adding in functionality to progressively make each div darker or lighter than the previous.
 
   >Breaking it down:
-  0. Store user input from the input text box and `console.log()` that stored value.  
-  0. Append a div with a `class` of `swatch` to `<div class="container">`. You may also want to attach an additional class to the appended div to mark the color entered by the user.
-  0. Write a for-loop to add the requested color the requested number of times.
+  0. When the user presses enter, thereby submitting the form, **store** user inputs from the **color** and **number** input text boxes and `console.log()` these stored values.  
+  0. Create a div with a `class` of `swatch` using `$()`.
+  0. Attach an additional class to this new div that matches the color entered by the user.
+  0. Make the `background-color` of this div the color chosen by the user.
+  0. Append this to `<div class="container">`.  
+  0. Write a for-loop to append the requested color the requested number of times.
+    > You can move the code above into this for-loop.
 
-0. *I'd to be able to click on a color and then another color, and switch their values (switch their places).*
+0. *I'd like to be able to click on a color and then another color, and switch their values (switch their places).*
   > Breaking it down:
   0. You'll not only need to keep track of the number of clicks, but you'll need to differentiate even-numbered clicks (if the user has has clicked an even number of times) from odd-numbered clicks (if the user has clicked an odd number of times).
   0. You'll also need to store the color value of the first div clicked and the color value of the second div to make the swap.
