@@ -7,10 +7,19 @@ swatchDivs.mouseover(function(){
 })
 
 //2nd exercise
-swatchDivs.mouseenter(function(){
-  $(this).fadeOut()
-})
+// swatchDivs.mouseenter(function(){
+//   $(this).fadeOut()
+// })
+//
+// swatchDivs.mouseleave(function(){
+//   $(this).fadeIn()
+// })
 
-swatchDivs.mouseleave(function(){
-  $(this).fadeIn()
-})
+swatchDivs.hover(
+  function(){
+    $(this).fadeOut()
+  },
+  function(){
+    $(this).fadeIn()
+  }
+)
