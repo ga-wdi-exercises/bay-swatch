@@ -6,15 +6,6 @@ swatchDivs.mouseover(function(){
   $("#output").html(thisBgColor)
 })
 
-//2nd exercise
-// swatchDivs.mouseenter(function(){
-//   $(this).fadeOut()
-// })
-//
-// swatchDivs.mouseleave(function(){
-//   $(this).fadeIn()
-// })
-
 swatchDivs.hover(
   function(){
     $(this).fadeOut()
@@ -23,3 +14,16 @@ swatchDivs.hover(
     $(this).fadeIn()
   }
 )
+
+$("form").submit(function(evt){
+  evt.preventDefault();
+  var colorInput = $("form input").eq(0).val();
+  var numberInput = $("form input").eq(1).val();
+
+  for (var i = 1; i <= numberInput; i++){
+    var newDiv = $("<div class='swatch'></div>");
+    newDiv.addClass(colorInput);
+    newDiv.css("background-color", colorInput);
+    $(".container").append(newDiv);
+  }
+})
