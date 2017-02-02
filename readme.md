@@ -4,9 +4,9 @@
 
 0. *When I mouse-over on a color, I want to see its RGB color value in a box on the screen.*
   > Breaking it down:
-  0. Select all swatch elements and store as a reference (*i.e. in a variable*)
-  0. Add event listeners to each swatch element to listen for mouse-overs
-  0. Get the value of each swatch element's color and change the text of the 'output box' to that value
+  0. Select all elements with `swatch` class and store as a reference (*i.e. in a variable*)
+  0. Add event listeners to each `swatch` class element to listen for mouse-overs
+  0. Get the value of each `swatch` class element's color and change the text of the 'output box' to that value
 
 0. *When my mouse leaves a color-box, I want the div to fade out when the mouse enters the color-box, then fade in when the mouse leaves.*
   >Breaking it down:
