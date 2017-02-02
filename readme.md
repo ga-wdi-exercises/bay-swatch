@@ -29,7 +29,11 @@
   0. Write a for-loop to append the requested color the requested number of times.
     > You can move the code above into this for-loop.
 
-0. *I'd like to be able to click on a color and then another color, and switch their values (switch their places).*
+0. *I'd like to be able to click on a swatch and then another swatch, and switch their color-values (I want the swatches to switch places).*
+> The point here is to give the **impression** that the swatches are themselves switching places, but in reality, only their color-values are being swapped.
+
   > Breaking it down:
   0. You'll not only need to keep track of the number of clicks, but you'll need to differentiate even-numbered clicks (if the user has has clicked an even number of times) from odd-numbered clicks (if the user has clicked an odd number of times).
+    - What javascript operator would we use here? Hint: it's a mathematical operator
   0. You'll also need to store the color value of the first div clicked and the color value of the second div to make the swap.
+  0. Bonus UX Upgrade: Have the border of the first clicked element turn yellow after clicking on it. The size of the clicked swatch must not change. If the user clicks on the same element, the border disappears.  
